@@ -225,14 +225,10 @@ a:hover {
     white-space: nowrap;
     cursor: pointer;
 }
-.aspect-content:before,
 .aspect-content:after {
     content: '';
     display: inline-block;
     vertical-align: middle;
-}
-.aspect-content:before {
-    height: 100%;
 }
 .aspect-content::after {
     position: absolute;
